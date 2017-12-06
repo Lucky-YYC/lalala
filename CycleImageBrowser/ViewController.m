@@ -12,6 +12,7 @@
 #import "LWActionSheetView.h"
 #import "BrowserViewController.h"
 #import "PaomadengController.h"
+#import "YUMainTableViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,LWActionSheetViewDelegate>
 @property (nonatomic,strong)UITableView *myTable;
 @property (nonatomic,strong)NSMutableArray *titleArray;
@@ -59,11 +60,22 @@
         [self setPaomadeng];
     }else if (indexPath.row == 5){
         [self setYYModel];
+    }else if (indexPath.row == 6){
+        [self showAnimation];
     }
 }
-
+- (void)showAnimation{
+    YUMainTableViewController *vc = [YUMainTableViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 - (void)setYYModel{
-    
+    if (self.presentingViewController) {
+        [self dismissViewControllerAnimated:YES completion:^{
+            
+        }];
+    }else{
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 
@@ -121,7 +133,7 @@
 }
 - (NSMutableArray *)titleArray{
     if(!_titleArray){
-        _titleArray = [[NSMutableArray alloc]initWithObjects:@"ActiveIncator",@"ImageBrowser",@"ActionSheet",@"Alert",@"跑马灯",@"YYModel",@"other", nil];
+        _titleArray = [[NSMutableArray alloc]initWithObjects:@"ActiveIncator",@"ImageBrowser",@"ActionSheet",@"Alert",@"跑马灯",@"YYModel",@"animation",@"other", nil];
     }
     return _titleArray;
 }

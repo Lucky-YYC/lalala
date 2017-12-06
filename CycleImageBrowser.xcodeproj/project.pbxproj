@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D1C7E0E1F317C6F008F26E1 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C7E0D1F317C6F008F26E1 /* BrowserViewController.m */; };
-		1D1C7E161F317E42008F26E1 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1C7E101F317E42008F26E1 /* 1.jpg */; };
-		1D1C7E171F317E42008F26E1 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1C7E111F317E42008F26E1 /* 2.jpg */; };
-		1D1C7E181F317E42008F26E1 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1C7E121F317E42008F26E1 /* 3.jpg */; };
-		1D1C7E191F317E42008F26E1 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1C7E131F317E42008F26E1 /* 4.jpg */; };
-		1D1C7E1A1F317E42008F26E1 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1C7E141F317E42008F26E1 /* 5.jpg */; };
-		1D1C7E1B1F317E42008F26E1 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1C7E151F317E42008F26E1 /* 6.jpg */; };
 		1D6F05A51F330E8100211C2C /* PaomadengController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F05A41F330E8100211C2C /* PaomadengController.m */; };
 		1D7E84781F307E9F003B876C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E84771F307E9F003B876C /* main.m */; };
 		1D7E847B1F307E9F003B876C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E847A1F307E9F003B876C /* AppDelegate.m */; };
@@ -35,18 +29,18 @@
 		1D81C3601F316BC700B3DA2F /* LWImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81C3521F316BC700B3DA2F /* LWImageItem.m */; };
 		1D81C3611F316BC700B3DA2F /* LWProgeressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81C3541F316BC700B3DA2F /* LWProgeressHUD.m */; };
 		1D81C3621F316BC700B3DA2F /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81C3561F316BC700B3DA2F /* UIImage+ImageEffects.m */; };
+		1D876AC61FD7968300393AC2 /* EmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D876ABA1FD7968200393AC2 /* EmitterLayerView.m */; };
+		1D876AC71FD7968300393AC2 /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D876ABE1FD7968200393AC2 /* SnowView.m */; };
+		1D876AC81FD7968300393AC2 /* YUMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D876ABF1FD7968200393AC2 /* YUMainTableViewController.m */; };
+		1D876AC91FD7968300393AC2 /* YULoadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D876AC11FD7968300393AC2 /* YULoadingLabel.m */; };
+		1D876ACA1FD7968300393AC2 /* YUReplicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D876AC21FD7968300393AC2 /* YUReplicatorAnimation.m */; };
+		1D876ACB1FD7968300393AC2 /* YUAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D876AC31FD7968300393AC2 /* YUAnimationViewController.m */; };
 		FB2B3271AA43E66615D8D7C2 /* libPods-CycleImageBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E288839DCBC1B4BE790EED /* libPods-CycleImageBrowser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D1C7E0C1F317C6F008F26E1 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
 		1D1C7E0D1F317C6F008F26E1 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
-		1D1C7E101F317E42008F26E1 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		1D1C7E111F317E42008F26E1 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		1D1C7E121F317E42008F26E1 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
-		1D1C7E131F317E42008F26E1 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
-		1D1C7E141F317E42008F26E1 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
-		1D1C7E151F317E42008F26E1 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 		1D6F05A31F330E8100211C2C /* PaomadengController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaomadengController.h; sourceTree = "<group>"; };
 		1D6F05A41F330E8100211C2C /* PaomadengController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaomadengController.m; sourceTree = "<group>"; };
 		1D7E84731F307E9F003B876C /* CycleImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +83,18 @@
 		1D81C3551F316BC700B3DA2F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		1D81C3561F316BC700B3DA2F /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		1D81C3641F3173C700B3DA2F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1D876ABA1FD7968200393AC2 /* EmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerView.m; sourceTree = "<group>"; };
+		1D876ABB1FD7968200393AC2 /* YUAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUAnimationViewController.h; sourceTree = "<group>"; };
+		1D876ABC1FD7968200393AC2 /* YULoadingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YULoadingLabel.h; sourceTree = "<group>"; };
+		1D876ABD1FD7968200393AC2 /* EmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerView.h; sourceTree = "<group>"; };
+		1D876ABE1FD7968200393AC2 /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		1D876ABF1FD7968200393AC2 /* YUMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUMainTableViewController.m; sourceTree = "<group>"; };
+		1D876AC01FD7968300393AC2 /* YUReplicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUReplicatorAnimation.h; sourceTree = "<group>"; };
+		1D876AC11FD7968300393AC2 /* YULoadingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YULoadingLabel.m; sourceTree = "<group>"; };
+		1D876AC21FD7968300393AC2 /* YUReplicatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUReplicatorAnimation.m; sourceTree = "<group>"; };
+		1D876AC31FD7968300393AC2 /* YUAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUAnimationViewController.m; sourceTree = "<group>"; };
+		1D876AC41FD7968300393AC2 /* YUMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUMainTableViewController.h; sourceTree = "<group>"; };
+		1D876AC51FD7968300393AC2 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
 		9A5EEDAC7A6F0A9303504BC3 /* Pods-CycleImageBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleImageBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-CycleImageBrowser/Pods-CycleImageBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		A5E288839DCBC1B4BE790EED /* libPods-CycleImageBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CycleImageBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70CC7766C9CEF1B61B92F2F /* Pods-CycleImageBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleImageBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CycleImageBrowser/Pods-CycleImageBrowser.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,23 +112,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D1C7E0F1F317E42008F26E1 /* 图片 */ = {
-			isa = PBXGroup;
-			children = (
-				1D1C7E101F317E42008F26E1 /* 1.jpg */,
-				1D1C7E111F317E42008F26E1 /* 2.jpg */,
-				1D1C7E121F317E42008F26E1 /* 3.jpg */,
-				1D1C7E131F317E42008F26E1 /* 4.jpg */,
-				1D1C7E141F317E42008F26E1 /* 5.jpg */,
-				1D1C7E151F317E42008F26E1 /* 6.jpg */,
-			);
-			path = "图片";
-			sourceTree = "<group>";
-		};
 		1D7E846A1F307E9F003B876C = {
 			isa = PBXGroup;
 			children = (
-				1D1C7E0F1F317E42008F26E1 /* 图片 */,
 				1D81C33D1F316BC700B3DA2F /* LWImageBrowser */,
 				1D81C3361F316BC100B3DA2F /* LWActiveIndicator */,
 				1D7E84751F307E9F003B876C /* CycleImageBrowser */,
@@ -151,6 +143,18 @@
 				1D1C7E0D1F317C6F008F26E1 /* BrowserViewController.m */,
 				1D6F05A31F330E8100211C2C /* PaomadengController.h */,
 				1D6F05A41F330E8100211C2C /* PaomadengController.m */,
+				1D876ABD1FD7968200393AC2 /* EmitterLayerView.h */,
+				1D876ABA1FD7968200393AC2 /* EmitterLayerView.m */,
+				1D876AC51FD7968300393AC2 /* SnowView.h */,
+				1D876ABE1FD7968200393AC2 /* SnowView.m */,
+				1D876ABB1FD7968200393AC2 /* YUAnimationViewController.h */,
+				1D876AC31FD7968300393AC2 /* YUAnimationViewController.m */,
+				1D876ABC1FD7968200393AC2 /* YULoadingLabel.h */,
+				1D876AC11FD7968300393AC2 /* YULoadingLabel.m */,
+				1D876AC41FD7968300393AC2 /* YUMainTableViewController.h */,
+				1D876ABF1FD7968200393AC2 /* YUMainTableViewController.m */,
+				1D876AC01FD7968300393AC2 /* YUReplicatorAnimation.h */,
+				1D876AC21FD7968300393AC2 /* YUReplicatorAnimation.m */,
 				1D81C3641F3173C700B3DA2F /* PrefixHeader.pch */,
 				1D7E847F1F307E9F003B876C /* Main.storyboard */,
 				1D7E84821F307E9F003B876C /* Assets.xcassets */,
@@ -291,13 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1C7E1B1F317E42008F26E1 /* 6.jpg in Resources */,
 				1D7E84861F307E9F003B876C /* LaunchScreen.storyboard in Resources */,
-				1D1C7E1A1F317E42008F26E1 /* 5.jpg in Resources */,
-				1D1C7E191F317E42008F26E1 /* 4.jpg in Resources */,
-				1D1C7E161F317E42008F26E1 /* 1.jpg in Resources */,
-				1D1C7E171F317E42008F26E1 /* 2.jpg in Resources */,
-				1D1C7E181F317E42008F26E1 /* 3.jpg in Resources */,
 				1D7E84831F307E9F003B876C /* Assets.xcassets in Resources */,
 				1D7E84811F307E9F003B876C /* Main.storyboard in Resources */,
 			);
@@ -364,15 +362,21 @@
 				1D7E847E1F307E9F003B876C /* ViewController.m in Sources */,
 				1D81C3601F316BC700B3DA2F /* LWImageItem.m in Sources */,
 				1D81C35B1F316BC700B3DA2F /* LWImageBrowser.m in Sources */,
+				1D876AC71FD7968300393AC2 /* SnowView.m in Sources */,
 				1D81C35F1F316BC700B3DA2F /* LWImageBrowserModel.m in Sources */,
 				1D6F05A51F330E8100211C2C /* PaomadengController.m in Sources */,
+				1D876AC91FD7968300393AC2 /* YULoadingLabel.m in Sources */,
 				1D81C33C1F316BC100B3DA2F /* LWActiveIncatorAnimationView.m in Sources */,
 				1D7E847B1F307E9F003B876C /* AppDelegate.m in Sources */,
 				1D81C3611F316BC700B3DA2F /* LWProgeressHUD.m in Sources */,
+				1D876ACA1FD7968300393AC2 /* YUReplicatorAnimation.m in Sources */,
 				1D7E84781F307E9F003B876C /* main.m in Sources */,
 				1D81C3581F316BC700B3DA2F /* LWActionSheetView.m in Sources */,
 				1D81C35A1F316BC700B3DA2F /* LWAlertView.m in Sources */,
+				1D876ACB1FD7968300393AC2 /* YUAnimationViewController.m in Sources */,
 				1D81C35D1F316BC700B3DA2F /* LWImageBrowserCell.m in Sources */,
+				1D876AC81FD7968300393AC2 /* YUMainTableViewController.m in Sources */,
+				1D876AC61FD7968300393AC2 /* EmitterLayerView.m in Sources */,
 				1D81C35C1F316BC700B3DA2F /* LWImageBrowserButton.m in Sources */,
 				1D81C33B1F316BC100B3DA2F /* LWActiveIncator.m in Sources */,
 				1D81C3621F316BC700B3DA2F /* UIImage+ImageEffects.m in Sources */,
