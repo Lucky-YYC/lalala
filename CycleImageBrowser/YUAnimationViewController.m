@@ -29,8 +29,7 @@
 }
 
 // 三种layer的动画
-- (void)setLayerType:(YULayerType)layerType
-{
+- (void)setLayerType:(YULayerType)layerType{
     
     switch (layerType) {
         case YUCAReplicatorLayer:

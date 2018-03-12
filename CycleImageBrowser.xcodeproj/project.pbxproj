@@ -35,6 +35,8 @@
 		1D876AC91FD7968300393AC2 /* YULoadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D876AC11FD7968300393AC2 /* YULoadingLabel.m */; };
 		1D876ACA1FD7968300393AC2 /* YUReplicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D876AC21FD7968300393AC2 /* YUReplicatorAnimation.m */; };
 		1D876ACB1FD7968300393AC2 /* YUAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D876AC31FD7968300393AC2 /* YUAnimationViewController.m */; };
+		1DA976BB20523C0F0092AA80 /* BiggerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA976BA20523C0F0092AA80 /* BiggerViewController.m */; };
+		1DA976BE20523C3A0092AA80 /* FlashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA976BD20523C3A0092AA80 /* FlashViewController.m */; };
 		FB2B3271AA43E66615D8D7C2 /* libPods-CycleImageBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E288839DCBC1B4BE790EED /* libPods-CycleImageBrowser.a */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +97,10 @@
 		1D876AC31FD7968300393AC2 /* YUAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUAnimationViewController.m; sourceTree = "<group>"; };
 		1D876AC41FD7968300393AC2 /* YUMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUMainTableViewController.h; sourceTree = "<group>"; };
 		1D876AC51FD7968300393AC2 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		1DA976B920523C0F0092AA80 /* BiggerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BiggerViewController.h; sourceTree = "<group>"; };
+		1DA976BA20523C0F0092AA80 /* BiggerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiggerViewController.m; sourceTree = "<group>"; };
+		1DA976BC20523C3A0092AA80 /* FlashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashViewController.h; sourceTree = "<group>"; };
+		1DA976BD20523C3A0092AA80 /* FlashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashViewController.m; sourceTree = "<group>"; };
 		9A5EEDAC7A6F0A9303504BC3 /* Pods-CycleImageBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleImageBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-CycleImageBrowser/Pods-CycleImageBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		A5E288839DCBC1B4BE790EED /* libPods-CycleImageBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CycleImageBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70CC7766C9CEF1B61B92F2F /* Pods-CycleImageBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleImageBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CycleImageBrowser/Pods-CycleImageBrowser.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,18 +149,7 @@
 				1D1C7E0D1F317C6F008F26E1 /* BrowserViewController.m */,
 				1D6F05A31F330E8100211C2C /* PaomadengController.h */,
 				1D6F05A41F330E8100211C2C /* PaomadengController.m */,
-				1D876ABD1FD7968200393AC2 /* EmitterLayerView.h */,
-				1D876ABA1FD7968200393AC2 /* EmitterLayerView.m */,
-				1D876AC51FD7968300393AC2 /* SnowView.h */,
-				1D876ABE1FD7968200393AC2 /* SnowView.m */,
-				1D876ABB1FD7968200393AC2 /* YUAnimationViewController.h */,
-				1D876AC31FD7968300393AC2 /* YUAnimationViewController.m */,
-				1D876ABC1FD7968200393AC2 /* YULoadingLabel.h */,
-				1D876AC11FD7968300393AC2 /* YULoadingLabel.m */,
-				1D876AC41FD7968300393AC2 /* YUMainTableViewController.h */,
-				1D876ABF1FD7968200393AC2 /* YUMainTableViewController.m */,
-				1D876AC01FD7968300393AC2 /* YUReplicatorAnimation.h */,
-				1D876AC21FD7968300393AC2 /* YUReplicatorAnimation.m */,
+				1DA976B820523B870092AA80 /* AnimationView */,
 				1D81C3641F3173C700B3DA2F /* PrefixHeader.pch */,
 				1D7E847F1F307E9F003B876C /* Main.storyboard */,
 				1D7E84821F307E9F003B876C /* Assets.xcassets */,
@@ -214,6 +209,29 @@
 				1D81C3561F316BC700B3DA2F /* UIImage+ImageEffects.m */,
 			);
 			path = LWImageBrowser;
+			sourceTree = "<group>";
+		};
+		1DA976B820523B870092AA80 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				1DA976B920523C0F0092AA80 /* BiggerViewController.h */,
+				1DA976BA20523C0F0092AA80 /* BiggerViewController.m */,
+				1D876ABD1FD7968200393AC2 /* EmitterLayerView.h */,
+				1D876ABA1FD7968200393AC2 /* EmitterLayerView.m */,
+				1D876AC51FD7968300393AC2 /* SnowView.h */,
+				1D876ABE1FD7968200393AC2 /* SnowView.m */,
+				1D876ABB1FD7968200393AC2 /* YUAnimationViewController.h */,
+				1D876AC31FD7968300393AC2 /* YUAnimationViewController.m */,
+				1D876ABC1FD7968200393AC2 /* YULoadingLabel.h */,
+				1D876AC11FD7968300393AC2 /* YULoadingLabel.m */,
+				1D876AC41FD7968300393AC2 /* YUMainTableViewController.h */,
+				1D876ABF1FD7968200393AC2 /* YUMainTableViewController.m */,
+				1D876AC01FD7968300393AC2 /* YUReplicatorAnimation.h */,
+				1D876AC21FD7968300393AC2 /* YUReplicatorAnimation.m */,
+				1DA976BC20523C3A0092AA80 /* FlashViewController.h */,
+				1DA976BD20523C3A0092AA80 /* FlashViewController.m */,
+			);
+			name = AnimationView;
 			sourceTree = "<group>";
 		};
 		2CC1936796D5881C34A4CB46 /* Pods */ = {
@@ -366,9 +384,11 @@
 				1D81C35F1F316BC700B3DA2F /* LWImageBrowserModel.m in Sources */,
 				1D6F05A51F330E8100211C2C /* PaomadengController.m in Sources */,
 				1D876AC91FD7968300393AC2 /* YULoadingLabel.m in Sources */,
+				1DA976BB20523C0F0092AA80 /* BiggerViewController.m in Sources */,
 				1D81C33C1F316BC100B3DA2F /* LWActiveIncatorAnimationView.m in Sources */,
 				1D7E847B1F307E9F003B876C /* AppDelegate.m in Sources */,
 				1D81C3611F316BC700B3DA2F /* LWProgeressHUD.m in Sources */,
+				1DA976BE20523C3A0092AA80 /* FlashViewController.m in Sources */,
 				1D876ACA1FD7968300393AC2 /* YUReplicatorAnimation.m in Sources */,
 				1D7E84781F307E9F003B876C /* main.m in Sources */,
 				1D81C3581F316BC700B3DA2F /* LWActionSheetView.m in Sources */,
